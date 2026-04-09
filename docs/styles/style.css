@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.box {
+    width: 100 px;
+    height: 100 px;
+    margin: 10 px;
+}
+
+div#container::hover .box {
+    background-color: pink;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color:green;
+}
+
+.blue {
+    background-color:blue;
+}
