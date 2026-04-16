@@ -60,6 +60,14 @@ kbd{
     border-radius: 5px;
 }
 
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style-type:georgian;
+}
+
 .box {
     width: 100px;
     height: 100px;
@@ -69,6 +77,8 @@ kbd{
 div#container:hover .box {
     background-color: pink;
     color:hotpink;
+    transform:rotate(1deg) scale(1.1);
+    box-shadow: 0 6px 12px rgba(255, 155, 190, 0.25);
     /* I need javascript to change the text content (at least thats what google says) */
 }
 
